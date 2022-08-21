@@ -1,57 +1,56 @@
+/* Reset */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
+/* Color de fondo */
 body {
-    background-color: #181818;
+  background-color: #181818;
 }
 
-.titulos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 500px;
-}
-
-.h1 {
-    color: white;
-    padding-top: 20px;
-}
-
+/* Clase para resaltar textos */
 .highlightedText {
-    color: #ff0038;
+  color: #ff0038;
 }
 
+/* Tarjeta contenedora del producto */
 .producto {
-    max-width: 20%;
-    padding: 10px;
-    margin: 10px;
-    margin-bottom: 20px;
-    box-shadow: 2px 6px 3px 3px rgba(0, 0, 0, 0.3);
-    background-color: rgb(48, 48, 48);
-    color: white;
-    border-radius: 5px;
+  max-width: 20%;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 20px;
+  box-shadow: 2px 6px 3px 3px rgba(0, 0, 0, 0.3);
+  background-color: rgb(48, 48, 48);
+  color: white;
+  border-radius: 5px;
 }
 
+/* Bloque que contiene las tarjetas del stock */
 .contenedorStock {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
+/* Bloque que contiene el botón de "Agregar al carrito" */
+.contenedorBotonCarrito {
+  text-align: center;
+}
+
+/* Estilos del botón "Agregar al carrito" */
 .botonAgregarCarrito {
-    margin-top: 10px;
-    height: 30px;
-    width: 150px;
-    font-weight: 700;
+  margin-top: 10px;
+  height: 30px;
+  width: 150px;
+  font-weight: 700;
 }
 
+/* Estilos del botón "Agregar al carrito" al pasar por encima con el cursor */
 .botonAgregarCarrito:hover {
-    background-color: #ff0038;
-    color: white;
-    transition: .3s;
-    border: none;
+  background-color: #ff0038;
+  color: white;
+  transition: 0.3s;
+  border: none;
 }
